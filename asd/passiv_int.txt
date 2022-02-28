@@ -1,0 +1,4 @@
+Ha egy interfészen nem akarunk küldeni frissítéseket, csak fogadni:
+R1(config-router)#passive-interface Fa0/0
+
+no auto-summary
