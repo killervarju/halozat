@@ -1,0 +1,14 @@
+username admin-username password {0 unencrypted_password | 7 hidden_password | unencrypted_text}
+
+
+Example:
+
+Switch(config)# username adminuser1 password 0 QZsek239@
+
+
+description
+
+switch# configure terminal
+switch(config)# interface ethernet 1/1
+switch(config-if)# description "10G Server Link"
+switch(config-if)# 
